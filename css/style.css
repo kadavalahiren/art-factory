@@ -43,11 +43,12 @@ html,body{
     width: 75%;
     padding: 0px 15px;
     float: left;
+    text-align: right;
 }
 .sub{
     padding: 0px 0px 0px 80px;
 }
-ul,li{
+.sub,li{
     line-height: 80px;
     margin: 0 ;
     padding: 0;
@@ -68,6 +69,9 @@ ul,li{
     display: block;
     font-weight: 500;
     font-size: 13px;
+}
+.menus:hover{
+    color:#f55858;
 }
 .txt_img{
     width: 100%;
@@ -107,6 +111,9 @@ ul,li{
     text-decoration: none;
     position: absolute;   
 }
+.f_btn:hover{
+    background-color: #0088e8;
+}
 .f_img{
     max-width: 48%;
     float: left;
@@ -128,14 +135,14 @@ ul,li{
     width: 85%;
     margin: auto;
 }
-.s_img, .third_img{
+.s_img{
     max-width: 60%;
     float: left;
 }
 .s_imgs{
     padding: 0px 15px;
 }
-.s_text,.third_txt{
+.s_text{
     max-width: 40%;
     padding: 0px 15px;
     float: left;
@@ -155,6 +162,12 @@ ul,li{
     margin: 0px 0px 40px 0px;
     letter-spacing: 0.5px;
 }
+.p_a{
+    color:#007bff;
+}
+.p_a:hover{
+    color: #0056b3;
+}
 .s_btn{
     font-size: 13px;
     border-radius: 20px;
@@ -165,6 +178,18 @@ ul,li{
     position: absolute;
     letter-spacing: 0.25px;
     text-decoration: none;
+}
+.s_btn:hover{
+    background-color: #0088e8;
+}
+.third_txt{
+    max-width: 50%;
+    padding: 0px 15px;
+    float: left;
+}
+.third_img{
+    max-width: 50%;
+    float: left;
 }
 .text_li{
     width: 80%;
@@ -184,7 +209,7 @@ ul,li{
 }
 .third_p{
     margin:0px 0px 30px 0px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.5px;
 }
@@ -211,8 +236,10 @@ ul,li{
     margin: auto;
     padding: 40px 30px;
     position: absolute;
-    background-color: #fff;
-    
+    background-color: #fff;  
+}
+.for_div1:hover .icon ,.for_div1:hover a.for_btn{
+     background-color: #0088e8;
 }
 .icon{
     width: 100px;
@@ -482,6 +509,8 @@ a{
     width: 50%;
     margin: auto;
     float: left;
+    text-align: right;
+   
 }
 .social{
     overflow: hidden;
@@ -492,13 +521,13 @@ a{
     text-align: center;
     background-color: #00b4c6;
     width: 40px;
-    height: 35px;
     line-height: 30px;
     border-radius: 5px;
     display: inline-block;
     font-size: 16px;
+     margin: 0;
 }
-.seven ul li{
+.social,li{
     line-height: 30px;
     margin: 0;
     padding: 0;
