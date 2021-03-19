@@ -125,6 +125,7 @@ html,body{
     margin: auto;
     position: relative; 
 }
+/*MEDIA QUERY*/
 .div_second, .div_third{
     width: 100%;
     margin: auto;
@@ -268,7 +269,7 @@ html,body{
 }
 .p_txt{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     color: #777;
     letter-spacing: 0.5px;
     line-height: 25px;
@@ -368,6 +369,9 @@ a{
     position: relative;
     color: #fff;
     letter-spacing: 0.25px;
+}
+.Btnnn:hover{
+   background-color: #0088e8; 
 }
 .five2{
    width: 49%;    
@@ -486,6 +490,9 @@ a{
     color: #fff;
     letter-spacing: 0.25px;
 }
+.sub_button:hover{
+    background-color: #0088e8; 
+}
 .div_seven{
     width: 100%;
     padding: 60px 0px;
@@ -505,16 +512,24 @@ a{
     text-transform: capitalize;
     text-align: center;
 }
+.ft{
+    color: blue;
+}
 .seven_2{
     width: 50%;
     margin: auto;
     float: left;
+    padding: 0px 10px;
     text-align: right;
    
 }
 .social{
     overflow: hidden;
     text-align: right;
+    padding: 0px 10px;
+}
+.ic_bg:hover{
+    background-color: #0088e8; 
 }
 .social li a {
     color: #fff;
@@ -525,7 +540,7 @@ a{
     border-radius: 5px;
     display: inline-block;
     font-size: 16px;
-     margin: 0;
+    margin: 0px 05px;
 }
 .social,li{
     line-height: 30px;
